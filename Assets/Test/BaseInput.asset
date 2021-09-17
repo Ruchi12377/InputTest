@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106f4c99a88e448f4b1e1f66d9ee4f43, type: 3}
+  m_Name: BaseInput
+  m_EditorClassIdentifier: 
+  loopTiming: 8
+  moveInput:
+    isValid: 1
+    action:
+      m_Name: Action
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 2e66b23e-7c97-41a4-9ba9-ebf56e8e5e39
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: Key
+        m_Id: cddd2e32-5699-4b24-ada0-8b0a8f91f80b
+        m_Path: 2DVector
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Action
+        m_Flags: 4
+      - m_Name: up
+        m_Id: 7970cd0a-e940-4758-8d3e-9daa0bdc4eca
+        m_Path: <Keyboard>/w
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Action
+        m_Flags: 8
+      - m_Name: down
+        m_Id: 3600b427-4b83-4bf9-b1e5-a2d6fb97bb85
+        m_Path: <Keyboard>/s
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Action
+        m_Flags: 8
+      - m_Name: left
+        m_Id: 05cbf34d-f8b8-432e-aea1-249bfa4277ac
+        m_Path: <Keyboard>/a
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Action
+        m_Flags: 8
+      - m_Name: right
+        m_Id: c124132a-77b4-4041-b94e-2c9518917ba1
+        m_Path: <Keyboard>/d
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Action
+        m_Flags: 8
+  jumpInput:
+    isValid: 1
+    action:
+      m_Name: Action
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 295d72fb-fe3d-430a-b30b-913b32377873
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: fcfce4e8-efa5-48d5-9262-b6c1c08a5d46
+        m_Path: <Keyboard>/space
+        m_Interactions: Press
+        m_Processors: 
+        m_Groups: 
+        m_Action: Action
+        m_Flags: 0
